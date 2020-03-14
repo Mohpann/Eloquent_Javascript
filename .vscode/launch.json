@@ -7,6 +7,24 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Ch2_Practice",
+            "program": "${workspaceFolder}/chapter2/Practice_Chapter2.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "chapter1",
+            "program": "${workspaceFolder}/chapter1/testapp.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "chapter2",
             "program": "${workspaceFolder}/chapter2/testapp.js",
             "skipFiles": [
