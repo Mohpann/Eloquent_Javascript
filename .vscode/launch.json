@@ -7,6 +7,62 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Ch4_Homework.js",
+            "program": "${workspaceFolder}/chapter4/Ch4_Homework.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testapp.js",
+            "program": "${workspaceFolder}/chapter4/testapp.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Ch3_Homeowork.js",
+            "program": "${workspaceFolder}/chapter3/Ch3_Homework.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "homework2b_LASTONE.js",
+            "program": "${workspaceFolder}/chapter2/homework2b_LASTONE.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "chapter3 testapp.js",
+            "program": "${workspaceFolder}/chapter3/testapp.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "homework2.js",
+            "program": "${workspaceFolder}/chapter2/homework2.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Ch2_Practice",
             "program": "${workspaceFolder}/chapter2/Practice_Chapter2.js",
             "skipFiles": [

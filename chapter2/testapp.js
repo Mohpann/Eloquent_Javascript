@@ -37,9 +37,9 @@ else {
 // Node.js documentation provides a list of functions/bindings available in the Node.js enviornment
 // https://nodejs.org/dist/latest-v13.x/docs/api/
 // e.g.: https://nodejs.org/dist/latest-v13.x/docs/api/process.html#process_process_arch
-console.log(process.arch);
+//console.log(process.arch);
 // e.g.: https://nodejs.org/dist/latest-v13.x/docs/api/process.html#process_process_cwd
-console.log(process.cwd());
+//console.log(process.cwd());
 
 // Return values
 //console.log(Math.min(2, 4));
@@ -160,3 +160,13 @@ switch(variable) {
         console.log("it's four");
         break;
     }*/
+
+
+
+for(let x=0;x<5;x++) {
+    for(let y=0;y<5;y++) {
+        console.log('ok');
+        if(y==2)
+            break;
+    }
+}
